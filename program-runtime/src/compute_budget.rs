@@ -141,7 +141,7 @@ impl ComputeBudget {
             sha256_byte_cost: 1,
             sha256_max_slices: 20_000,
             max_call_depth: 64,
-            stack_frame_size: 4_096,
+            stack_frame_size: 16_384,
             log_pubkey_units: 100,
             max_cpi_instruction_size: 1280, // IPv6 Min MTU size
             cpi_bytes_per_unit: 250,        // ~50MB at 200,000 units
